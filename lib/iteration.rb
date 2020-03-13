@@ -25,7 +25,9 @@ def find_greater_pair(src)
   element_index = 0
   while element_index < src.length do
     if src[element_index][0] > src[element_index][1]
-    #results << src.max[element_index]
+    results << src[element_index][0]
+    else
+    results << src[element_index][1]
     element_index += 1
   end
   results
