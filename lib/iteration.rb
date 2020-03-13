@@ -12,7 +12,7 @@ def join_ingredients(src)
   while row_index < src.count do
     element_index = 0
     inner_results = []
-    while 
+    while element_index < 
 end
 
 def find_greater_pair(src)
