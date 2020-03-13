@@ -10,7 +10,7 @@ def join_ingredients(src)
   results = []
   element_index = 0
   while row_index < src.length do
-    results[element_index] << "I love %{src[element_index][0]} and `src[element_index][1]` on my pizza`
+    results[element_index] << I love %{src[element_index][0]} and %src[element_index][1] on my pizza
     element_index += 1
   end
   results
