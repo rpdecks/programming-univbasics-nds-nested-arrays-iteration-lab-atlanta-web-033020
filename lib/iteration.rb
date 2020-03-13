@@ -49,7 +49,7 @@ def total_even_pairs(src)
     if modulo(src[element_index][0]) + modulo(src[element_index][1]) == 0
     total += (src[element_index][0] += src[element_index][1])
     else
-    results << src[element_index][1]
+    
     end
     element_index += 1
   end
