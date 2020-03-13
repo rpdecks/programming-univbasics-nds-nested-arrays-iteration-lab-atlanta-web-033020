@@ -51,5 +51,5 @@ def total_even_pairs(src)
     end
     element_index += 1
   end
-  results
+  total
 end
