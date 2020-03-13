@@ -28,6 +28,7 @@ def find_greater_pair(src)
     results << src[element_index][0]
     else
     results << src[element_index][1]
+    end
     element_index += 1
   end
   results
