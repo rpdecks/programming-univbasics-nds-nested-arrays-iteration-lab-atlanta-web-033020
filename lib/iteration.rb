@@ -13,6 +13,7 @@ def join_ingredients(src)
     results[element_index] << `I love `${src[element_index][0]}` and `${src[element_index][1]}` on my pizza`
     element_index += 1
   end
+  src
 end
 
 def find_greater_pair(src)
