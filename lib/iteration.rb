@@ -43,7 +43,7 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   
-  results = []
+  total=0
   element_index = 0
   while element_index < src.length do
     if modulo(src[element_index][0]) + modulo(src[element_index][1]) == 0
