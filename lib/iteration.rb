@@ -48,8 +48,6 @@ def total_even_pairs(src)
   while element_index < src.length do
     if modulo(src[element_index][0]) + modulo(src[element_index][1]) == 0
     total += (src[element_index][0] += src[element_index][1])
-    else
-    
     end
     element_index += 1
   end
