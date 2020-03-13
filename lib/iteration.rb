@@ -9,7 +9,7 @@ def join_ingredients(src)
   
   outer_results = []
   row_index = []
-  
+  while row_index
 end
 
 def find_greater_pair(src)
